@@ -61,7 +61,8 @@ export function middleware(request) {
 
   const segments = pathname.split('/').filter(Boolean);
   if (segments.length > 1 && segments[0] === segments[1]) {
-    return NextResponse.redirect('/' + segments.slice(1).join('/') + url.search);
+    url.pathname = '/' + segments.slice(1).join('/');
+    return NextResponse.redirect(url);
   }
 
   const pathLocale = segments[0];
