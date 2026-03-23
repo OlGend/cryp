@@ -758,6 +758,126 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./components/AppShell.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/AppShell.tsx",
+        "name": "*",
+        "chunks": [
+          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/AppShell.tsx",
+        "name": "",
+        "chunks": [
+          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/AppShell.tsx",
+        "name": "default",
+        "chunks": [
+          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/I18nProvider.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/I18nProvider.tsx",
+        "name": "*",
+        "chunks": [
+          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/I18nProvider.tsx",
+        "name": "",
+        "chunks": [
+          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+        ],
+        "async": false
+      },
+      "I18nProvider": {
+        "id": "(sc_client)/./components/I18nProvider.tsx",
+        "name": "I18nProvider",
+        "chunks": [
+          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./context/GlobalDataContext.tsx": {
+      "*": {
+        "id": "(sc_client)/./context/GlobalDataContext.tsx",
+        "name": "*",
+        "chunks": [
+          "app/[locale]/page:static/chunks/app/[locale]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./context/GlobalDataContext.tsx",
+        "name": "",
+        "chunks": [
+          "app/[locale]/page:static/chunks/app/[locale]/page.js"
+        ],
+        "async": false
+      },
+      "GlobalDataProvider": {
+        "id": "(sc_client)/./context/GlobalDataContext.tsx",
+        "name": "GlobalDataProvider",
+        "chunks": [
+          "app/[locale]/page:static/chunks/app/[locale]/page.js"
+        ],
+        "async": false
+      },
+      "useGlobalData": {
+        "id": "(sc_client)/./context/GlobalDataContext.tsx",
+        "name": "useGlobalData",
+        "chunks": [
+          "app/[locale]/page:static/chunks/app/[locale]/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+        "name": "*",
+        "chunks": [
+          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+        "name": "",
+        "chunks": [
+          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+        ],
+        "async": false
+      },
+      "suspense": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+        "name": "suspense",
+        "chunks": [
+          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+        ],
+        "async": false
+      },
+      "NoSSR": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+        "name": "NoSSR",
+        "chunks": [
+          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./app/[locale]/page.tsx": {
       "*": {
         "id": "(sc_client)/./app/[locale]/page.tsx",
@@ -936,40 +1056,6 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/[locale]/page:static/chunks/app/[locale]/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./context/GlobalDataContext.tsx": {
-      "*": {
-        "id": "(sc_client)/./context/GlobalDataContext.tsx",
-        "name": "*",
-        "chunks": [
-          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./context/GlobalDataContext.tsx",
-        "name": "",
-        "chunks": [
-          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-        ],
-        "async": false
-      },
-      "GlobalDataProvider": {
-        "id": "(sc_client)/./context/GlobalDataContext.tsx",
-        "name": "GlobalDataProvider",
-        "chunks": [
-          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-        ],
-        "async": false
-      },
-      "useGlobalData": {
-        "id": "(sc_client)/./context/GlobalDataContext.tsx",
-        "name": "useGlobalData",
-        "chunks": [
-          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
         ],
         "async": false
       }
@@ -1171,101 +1257,15 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
-    },
-    "(app-client)/./components/AppShell.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/AppShell.tsx",
-        "name": "*",
-        "chunks": [
-          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./components/AppShell.tsx",
-        "name": "",
-        "chunks": [
-          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./components/AppShell.tsx",
-        "name": "default",
-        "chunks": [
-          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./components/I18nProvider.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/I18nProvider.tsx",
-        "name": "*",
-        "chunks": [
-          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./components/I18nProvider.tsx",
-        "name": "",
-        "chunks": [
-          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-        ],
-        "async": false
-      },
-      "I18nProvider": {
-        "id": "(sc_client)/./components/I18nProvider.tsx",
-        "name": "I18nProvider",
-        "chunks": [
-          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-        "name": "*",
-        "chunks": [
-          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-        "name": "",
-        "chunks": [
-          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-        ],
-        "async": false
-      },
-      "suspense": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-        "name": "suspense",
-        "chunks": [
-          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-        ],
-        "async": false
-      },
-      "NoSSR": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-        "name": "NoSSR",
-        "chunks": [
-          "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-        ],
-        "async": false
-      }
     }
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/app/[locale]/page": [
-      "static/css/app/[locale]/page.css"
-    ],
     "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/app/[locale]/layout": [
       "static/css/app/[locale]/layout.css"
+    ],
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/app/[locale]/page": [
+      "static/css/app/[locale]/page.css"
     ]
   },
   "clientModules": {
@@ -2997,6 +2997,213 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/aos/dist/aos.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/[locale]/layout.css"
+      ]
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/swiper/modules/free-mode.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/[locale]/layout.css"
+      ]
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/swiper/modules/navigation.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/[locale]/layout.css"
+      ]
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/swiper/modules/pagination.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/[locale]/layout.css"
+      ]
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/swiper/swiper.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/[locale]/layout.css"
+      ]
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/public/assets/css/animate.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/[locale]/layout.css"
+      ]
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/public/assets/css/app.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/[locale]/layout.css"
+      ]
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/public/assets/css/bootstrap.min.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/[locale]/layout.css"
+      ]
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/public/assets/style.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/[locale]/layout.css"
+      ]
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/components/AppShell.tsx": {
+      "id": "(app-client)/./components/AppShell.tsx",
+      "name": "*",
+      "chunks": [
+        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/components/AppShell.tsx#": {
+      "id": "(app-client)/./components/AppShell.tsx",
+      "name": "",
+      "chunks": [
+        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/components/AppShell.tsx#default": {
+      "id": "(app-client)/./components/AppShell.tsx",
+      "name": "default",
+      "chunks": [
+        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/components/I18nProvider.tsx": {
+      "id": "(app-client)/./components/I18nProvider.tsx",
+      "name": "*",
+      "chunks": [
+        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/components/I18nProvider.tsx#": {
+      "id": "(app-client)/./components/I18nProvider.tsx",
+      "name": "",
+      "chunks": [
+        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/components/I18nProvider.tsx#I18nProvider": {
+      "id": "(app-client)/./components/I18nProvider.tsx",
+      "name": "I18nProvider",
+      "chunks": [
+        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/context/GlobalDataContext.tsx": {
+      "id": "(app-client)/./context/GlobalDataContext.tsx",
+      "name": "*",
+      "chunks": [
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/context/GlobalDataContext.tsx#": {
+      "id": "(app-client)/./context/GlobalDataContext.tsx",
+      "name": "",
+      "chunks": [
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/context/GlobalDataContext.tsx#GlobalDataProvider": {
+      "id": "(app-client)/./context/GlobalDataContext.tsx",
+      "name": "GlobalDataProvider",
+      "chunks": [
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/context/GlobalDataContext.tsx#useGlobalData": {
+      "id": "(app-client)/./context/GlobalDataContext.tsx",
+      "name": "useGlobalData",
+      "chunks": [
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "*",
+      "chunks": [
+        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "*",
+      "chunks": [
+        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "",
+      "chunks": [
+        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "",
+      "chunks": [
+        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js#suspense": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "suspense",
+      "chunks": [
+        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js#suspense": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "suspense",
+      "chunks": [
+        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js#NoSSR": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "NoSSR",
+      "chunks": [
+        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js#NoSSR": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "NoSSR",
+      "chunks": [
+        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+      ],
+      "async": false
+    },
     "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/swiper/modules/effect-coverflow.css#": {
       "id": "null",
       "name": "default",
@@ -3169,38 +3376,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/[locale]/page:static/chunks/app/[locale]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/context/GlobalDataContext.tsx": {
-      "id": "(app-client)/./context/GlobalDataContext.tsx",
-      "name": "*",
-      "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/context/GlobalDataContext.tsx#": {
-      "id": "(app-client)/./context/GlobalDataContext.tsx",
-      "name": "",
-      "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/context/GlobalDataContext.tsx#GlobalDataProvider": {
-      "id": "(app-client)/./context/GlobalDataContext.tsx",
-      "name": "GlobalDataProvider",
-      "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/context/GlobalDataContext.tsx#useGlobalData": {
-      "id": "(app-client)/./context/GlobalDataContext.tsx",
-      "name": "useGlobalData",
-      "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
       ],
       "async": false
     },
@@ -3585,181 +3760,6 @@ self.__RSC_MANIFEST={
       "name": "value",
       "chunks": [
         "app/[locale]/page:static/chunks/app/[locale]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/aos/dist/aos.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/[locale]/layout.css"
-      ]
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/swiper/modules/free-mode.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/[locale]/layout.css"
-      ]
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/swiper/modules/navigation.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/[locale]/layout.css"
-      ]
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/swiper/modules/pagination.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/[locale]/layout.css"
-      ]
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/swiper/swiper.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/[locale]/layout.css"
-      ]
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/public/assets/css/animate.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/[locale]/layout.css"
-      ]
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/public/assets/css/app.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/[locale]/layout.css"
-      ]
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/public/assets/css/bootstrap.min.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/[locale]/layout.css"
-      ]
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/public/assets/style.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/[locale]/layout.css"
-      ]
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/components/AppShell.tsx": {
-      "id": "(app-client)/./components/AppShell.tsx",
-      "name": "*",
-      "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/components/AppShell.tsx#": {
-      "id": "(app-client)/./components/AppShell.tsx",
-      "name": "",
-      "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/components/AppShell.tsx#default": {
-      "id": "(app-client)/./components/AppShell.tsx",
-      "name": "default",
-      "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/components/I18nProvider.tsx": {
-      "id": "(app-client)/./components/I18nProvider.tsx",
-      "name": "*",
-      "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/components/I18nProvider.tsx#": {
-      "id": "(app-client)/./components/I18nProvider.tsx",
-      "name": "",
-      "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/components/I18nProvider.tsx#I18nProvider": {
-      "id": "(app-client)/./components/I18nProvider.tsx",
-      "name": "I18nProvider",
-      "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "*",
-      "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "*",
-      "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "",
-      "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "",
-      "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js#suspense": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "suspense",
-      "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js#suspense": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "suspense",
-      "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js#NoSSR": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "NoSSR",
-      "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/olehlytvynenko/work/projects/lucky_crypto/cyfonii/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js#NoSSR": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "NoSSR",
-      "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
       ],
       "async": false
     }
