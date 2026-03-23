@@ -79,7 +79,7 @@ export default async function LocaleLayout({
 
   let brands: any[] = [];
   try {
-    const endpoint = `https://born.topbon.us/end/fetch/brand_fetcher.php?partner_id=${partnerId}&geo=${geo}&category=All`;
+    const endpoint = `https://born.topbon.us/end/fetch/brand_fetcher.php?partner_id=${partnerId}&geo=${geo}&category=Crypto_casinos`;
     const res = await fetch(endpoint, { next: { revalidate: 300 } });
     const data = await res.json();
     brands = processData(data, partnerId, geo);
