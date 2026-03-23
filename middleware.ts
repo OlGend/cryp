@@ -1,7 +1,5 @@
 import { NextResponse, NextRequest } from 'next/server';
 
-export const runtime = 'edge';
-
 const ALLOWED_PARTNERS = [
   'partner1000', 'partner1039', 'partner1043',
   'partner1044', 'partner1045', 'partner1073', 'partnerCLD',
