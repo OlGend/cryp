@@ -1,6 +1,6 @@
 import { cookies } from 'next/headers';
 import { redirect } from 'next/navigation';
-import { GlobalDataProvider } from '@/context/GlobalDataContext';
+import { GlobalDataProvider, BrandContent } from '@/context/GlobalDataContext';
 import { I18nProvider } from '@/components/I18nProvider';
 import AppShell from '@/components/AppShell';
 import 'aos/dist/aos.css';
@@ -56,7 +56,7 @@ function processData(data: any[], partner_id: string, geo: string) {
     const content = getLanguageContent(langs, partner_id, geo);
     if (!content) return null;
     return { brand, content };
-  }).filter(Boolean);
+  }).filter(Boolean) as BrandContent[];
 }
 
 export const revalidate = 300;
@@ -77,7 +77,7 @@ export default async function LocaleLayout({
   const keyword = cookieStore.get('rawKeyword')?.value ?? '-';
   const adCampaignId = cookieStore.get('ad_campaign_id')?.value ?? '-';
 
-  let brands: any[] = [];
+  let brands: BrandContent[] = [];
   try {
     const endpoint = `https://born.topbon.us/end/fetch/brand_fetcher.php?partner_id=${partnerId}&geo=${geo}&category=Crypto_casinos`;
     const res = await fetch(endpoint, { next: { revalidate: 300 } });
